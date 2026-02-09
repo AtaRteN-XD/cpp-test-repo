@@ -1,1 +1,36 @@
-text.doc
+# CMake
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+
+# Объектные файлы
+*.o
+*.obj
+*.pdb
+*.ilk
+
+# Исполняемые файлы и библиотеки
+*.exe
+*.dll
+*.so
+*.a
+
+# Предварительно скомпилированные заголовки
+*.gch
+*.pch
+
+# Тестирование
+Testing/
+CTestTestfile.cmake
+
+# IDE
+.vscode/
+.idea/
+.vs/
+
+# Временные файлы
+tmp/
+*.log
+compile_commands.json
